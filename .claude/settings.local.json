@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth:*)",
+      "Bash(git --version)",
+      "Bash(git -C \"C:\\\\Users\\\\Isagani\\\\OneDrive\\\\Desktop\\\\Project 2\\\\minimalist-hero\" status)"
+    ]
+  }
+}
