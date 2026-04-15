@@ -37,7 +37,7 @@ function App() {
         navLinks={navLinks}
         mainText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, justo vel tempus."
         readMoreLink="#about-us"
-        imageSrc="/images/soda-image.png"
+        imageSrc={import.meta.env.BASE_URL + 'images/soda-image.png'}
         imageAlt="A minimalist soda can."
         overlayText={{
           part1: 'less is',
